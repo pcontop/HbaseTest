@@ -24,6 +24,8 @@ public class GetTable {
             List<Cell> values = result.listCells();
             for (Cell c: values){
                 System.out.println("Valor Recuperado: " + Bytes.toString(c.getValueArray()));
+
+                //should appear there.
             }
         } catch (IOException e) {
             e.printStackTrace();
